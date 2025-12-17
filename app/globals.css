@@ -141,4 +141,18 @@ button:hover {
 
 }
 
+.grid { display: grid;
+ grid-template-columns: repeat(auto-fit,
+minmax(260px, 1fr));
+gap: 12px;
+}
+ .btn {
+ display: inline-block;
+ padding: 8px 12px;
+ border: 1px solid rgba(229,231,235,0.12);
+ border-radius: 999px;
+ text-decoration: none;
+ color: inherit;
+ }
+
 button:active { transform: translateY(0); }

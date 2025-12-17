@@ -40,7 +40,7 @@ export default function ContactPage() {
             <div>
               <label className="block mb-1 text-gray-300">ข้อความ</label>
               <textarea
-                rows="4"
+                rows={4}
                 placeholder="พิมพ์ข้อความของคุณ..."
                 className="w-full px-4 py-2 rounded-md bg-gray-800 text-gray-100 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
